@@ -1,0 +1,31 @@
+.button-group {
+  display: flex;
+  background-color: transparent;
+  border: 2px solid #1ED760;
+  border-radius: 20px;
+  padding: 8px 10px;
+  color: #1ED760;
+}
+
+.signin-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 0 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-button:hover {
+  transform: translateY(-8px);
+}
+
+.signin-icon {
+  width: 78px;
+  height: 78px;
+  transition: all 0.3s ease;
+} 
