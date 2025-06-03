@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/SignIn.css';
-import Logo from './Logo';
-import AuthButtons from './AuthButtons';
+import './SignIn.css';
+import Logo from '../Logo/Logo';
+import AuthButtons from '../AuthButtons/AuthButtons';
 
 const SignIn = () => {
   return (
